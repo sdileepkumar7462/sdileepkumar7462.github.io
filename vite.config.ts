@@ -4,7 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", // REQUIRED for GitHub Pages with custom domain
+  // REQUIRED for custom domain (GoDaddy)
+  // DO NOT put repo name here
+  base: "/",
 
   server: {
     host: "::",
@@ -17,7 +19,10 @@ export default defineConfig(({ mode }) => ({
     chunkSizeWarningLimit: 1000,
   },
 
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [
+    react(),
+    mode === "development" && componentTagger()
+  ].filter(Boolean),
 
   resolve: {
     alias: {
