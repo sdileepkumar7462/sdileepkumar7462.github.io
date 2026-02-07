@@ -4,9 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // REQUIRED for custom domain (GoDaddy)
-  // DO NOT put repo name here
-  base: "/",
+  base: "/",  // CORRECT for root GitHub Pages or custom domain
 
   server: {
     host: "::",
