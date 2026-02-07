@@ -4,7 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/",  // CORRECT for root GitHub Pages or custom domain
+  // REQUIRED for GitHub Pages project site
+  base: "/tirumalaweddinghalls.github.io/",
 
   server: {
     host: "::",
@@ -17,10 +18,7 @@ export default defineConfig(({ mode }) => ({
     chunkSizeWarningLimit: 1000,
   },
 
-  plugins: [
-    react(),
-    mode === "development" && componentTagger()
-  ].filter(Boolean),
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
   resolve: {
     alias: {
