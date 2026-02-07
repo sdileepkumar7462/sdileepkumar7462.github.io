@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://www.trumalaweddinghalls.com
+**URL**: https://www.tirumalaweddinghalls.com
 
 ## How can I edit this code?
 
