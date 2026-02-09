@@ -1,0 +1,15 @@
+/* Website Information */
+Site: Tirumala Wedding Halls – Divine Marriage Services
+Domain: https://www.tirumalaweddinghalls.com
+Purpose: Tirumala Marriage Booking, Function Halls, Wedding Packages, Catering, Event Services
+Founded: 2010
+
+/* Contact */
+Phone: +91 94403 97462
+Phone: +91 79934 34511
+Email: dileepmctml@gmail.com
+Address: HT Shopping Complex, Near Rambagicha Circle, Tirumala – 517504
+
+/* Developer */
+Developed By: (Your Name)
+Tech: React, Vite, TypeScript, TailwindCSS
