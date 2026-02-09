@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   // REQUIRED for GitHub Pages project site
-  base: "/tirumalaweddinghalls.github.io/",
+  base: "/",
 
   server: {
     host: "::",
